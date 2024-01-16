@@ -1,0 +1,253 @@
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Mulish:wght@400;600;700&display=swap');
+
+ body{
+    
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+    max-width: 1250px;
+    width: 1200px;
+    margin:0 auto;
+}
+
+
+
+/* Navigation Bar Related */
+.Nav-bar{
+    /* background-color: navajowhite; */
+    /* max-width: 1250px;
+    width: 1200px; */
+    margin: 0 auto;
+    display: flex;
+
+}
+.Nav-logo{
+    /* border:2px solid aqua; */
+    display: flex;
+    align-items: center;
+    min-height: 20px;
+    width: 50%;
+    
+}
+.Nav-logo img{
+    width: 50px;
+    height: 55px; 
+    flex-shrink: 0;
+}
+.Nav-logo h3{
+    color: #131318;
+font-family: system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.Travel{
+    color: red;
+}
+/* Navigation Option  */
+
+.Nav-option{
+    width: 50%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+}
+.Nav-option a{
+    text-decoration: none;
+    font-size: 25px;
+   
+}
+ .Home{
+    color:#ff5400;
+ }
+
+ /* Banner-1 Related */
+ .Banner-1{
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    /* max-width: 1250px;
+   width: 1200px; */
+    height: 600px;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 50px;
+    
+
+ }
+ .Explore{
+   text-align: center;
+   color: #FFF;
+   font-size: 35px;
+   /* background-color: rgba(0, 0, 0, 0.564);
+   margin-right: 53px; */
+}
+ .Explore p{
+font-size: 15px;
+ 
+ }
+ .input{
+    margin-top: 100px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+ }
+ .input input{
+    border-radius: 9px;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+}
+.Find-Now{
+    color: #FFF;
+    background-color: #FF5400;;
+}
+
+/* Mountain Related */
+.mountain{
+    /* max-width: 1250px;
+    width: 1200px; */
+    display: flex;
+     margin: 0 auto;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    /* padding: 20px; */
+    /* padding-left: 50px; */
+}
+.Read-More{
+    color: #FFF;
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 9px;
+background: #FF5400;
+margin-top: 110px;
+}
+
+/* Middle Text Related */
+
+.Mid-text{
+    text-align: center;
+    padding:50px;
+}
+.Mid-p{
+    font-size: 40px;
+}
+
+/* Image Collage Related */
+.Collage{
+    /* max-width: 1250px;
+    width: 1200px; */
+    margin: 0 auto;
+    align-items: center;
+}
+
+ .row{
+   display: flex; 
+   gap: 5px;
+   padding: 3px;
+ }
+
+ /* Hotel location Related */
+ .Hotel-location{
+     display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    gap: 20px;
+ }
+
+ .hotel{
+    background-color:#29CEF633;
+    /* border:2px solid #FF5400; */
+    width: 575px;
+   height: 285px;
+   border-radius: 9px;
+   padding: 20px;
+ }
+ .location{
+    background-color: #FBB56333;
+    width: 575px;
+   height: 285px;
+   border-radius: 9px;
+   padding: 20px;
+    /* border:2px solid aqua  */
+ }
+ .price-tag{
+    border:2px solid #FF5400;
+    border-radius: 9px;
+    margin: 0 auto;
+    background-color: #E9444433;
+    width: 575px;
+    height: 285px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+
+ }
+
+ /* .Banner-2 Related */
+.Banner-2{
+    display: flex;
+    justify-content: space-between;
+    width: 1230px;
+    height: 422px;
+    flex-shrink: 0;
+    
+}
+
+ 
+.left-side{
+    border: 2px solid #29d0a9;
+    border-radius: 12px;
+   padding: 50px;
+   height: ;
+   
+}
+.l-button{
+    /* border: 2px solid #141c1a; */
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    flex-shrink: 0;
+    margin-top: 50px;
+
+    
+}
+.l-button input{
+    border-radius: 9px;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+}
+.Subscribe{
+    color: #FFF;
+    background-color: #FF5400;
+    border-radius: 9px;
+    width: 399px;
+    height: 52px;
+    flex-shrink: 0;
+}
+
+/* Footer Related */
+
+.footer{
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    
+    height: 200px;
+    flex-shrink: 0;
+    padding: 80px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    font-family: system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+}
+.footer-logo img{
+    margin-top: 50px;
+    width: 50px;
+    height: 55px; 
+    flex-shrink: 0;
+}
