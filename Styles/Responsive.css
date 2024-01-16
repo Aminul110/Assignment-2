@@ -11,33 +11,53 @@
     body{
     max-width: 660px;
           }
-          .Banner-1{
-           max-width: 30%;
-           border-radius: 10px;
+          .Explore p{
             flex-direction: column;
-            margin-right: 360px;
-            margin-top: 10px;
-        }
-        .Explore{
-            max-height: 50%;
-         }
+             
+             }
+             .input{
+                flex-direction: column;
+                margin-left: 100px;
+                margin-bottom: 220px;
+             }
 
-         
-         
-        
-       .input{
-            flex-direction: column;
-            
-         }
-         .mountain{
-            flex-direction: column;
-        }     
+
+
+
+          .mountain{
+           flex-direction: column;
+        }
+        .mountain img{
+            margin-top: 20px;
+        }
+        /* Collage image */
         .Collage{
-         flex-direction: column;
-         max-width: 600px;
-        
+            flex-direction: column;
         }
-        
+        .row{
+            flex-direction: column;
+          }
+       /* Hotel-location */
 
-}
+       .Hotel-location{
+        flex-direction: column;
+    }
+
+    .Banner-2{
+        flex-direction: column;
+        
+    }
     
+    .last-img{
+        width: 200px;
+        height: 400px;
+    }
+
+
+
+
+
+
+
+
+        }

@@ -230,6 +230,12 @@ margin-top: 110px;
     flex-shrink: 0;
     
 }
+ .last-img{
+    width: 100%;
+ }
+
+
+
 .Discount{
     width: 320px;
 height: 115px;
