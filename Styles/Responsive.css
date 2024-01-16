@@ -1,4 +1,43 @@
 @media screen and (max-width: 667px){
-    
+    .Nav-bar{
+        flex-direction: column;
+        
+    }
+    .Nav-option{
+        flex-direction: column;
+        margin-right: 300px; 
+        gap: 10px;
+    }
+    body{
+    max-width: 660px;
+          }
+          .Banner-1{
+           max-width: 30%;
+           border-radius: 10px;
+            flex-direction: column;
+            margin-right: 360px;
+            margin-top: 10px;
+        }
+        .Explore{
+            max-height: 50%;
+         }
+
+         
+         
+        
+       .input{
+            flex-direction: column;
+            
+         }
+         .mountain{
+            flex-direction: column;
+        }     
+        .Collage{
+         flex-direction: column;
+         max-width: 600px;
+        
+        }
+        
+
 }
     

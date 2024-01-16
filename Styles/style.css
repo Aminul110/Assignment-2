@@ -193,6 +193,7 @@ margin-top: 110px;
     width: 1230px;
     height: 422px;
     flex-shrink: 0;
+    position: relative;
     
 }
 
@@ -227,6 +228,21 @@ margin-top: 110px;
     width: 399px;
     height: 52px;
     flex-shrink: 0;
+    
+}
+.Discount{
+    width: 320px;
+height: 115px;
+text-align: center;
+padding: 10px;
+transform: rotate(-19.628deg);
+flex-shrink: 0;
+    color: #FFF;
+    background-color: #ff5400;
+    border-radius: 18px;
+    position: absolute;
+    left: 71.5%;
+    top: 56%;
 }
 
 /* Footer Related */
